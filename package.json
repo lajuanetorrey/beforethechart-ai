@@ -1,0 +1,19 @@
+{
+  "name": "beforethechart-ai-registry",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Registry metadata and npm launcher for BeforeTheChart AI",
+  "author": "Lajuane Torrey",
+  "license": "UNLICENSED",
+  "homepage": "https://lajuanetorrey.gumroad.com/l/beforethechart-ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lajuanetorrey/beforethechart-ai.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "npx -y @ltorrey/beforethechart-mcp@1.1.0"
+  }
+}
