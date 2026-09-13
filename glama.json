@@ -1,0 +1,40 @@
+{
+  "$schema": "https://glama.ai/api/mcp/v1/schemas/glama.json",
+  "maintainers": ["lajuanetorrey"],
+  "name": "beforethechart-ai",
+  "display_name": "BeforeTheChart AI",
+  "description": "Licensed local MCP decision-support software for Claude Desktop and Cursor, combining on-demand Marketaux news sentiment with deterministic risk-based position sizing. No trade execution or return promises.",
+  "version": "1.1.0",
+  "repository": "https://github.com/lajuanetorrey/beforethechart-ai",
+  "homepage": "https://lajuanetorrey.gumroad.com/l/beforethechart-ai",
+  "license": "Proprietary",
+  "language": "TypeScript",
+  "runtime": "node",
+  "categories": [
+    "finance",
+    "ai-and-machine-learning",
+    "research-and-data"
+  ],
+  "tags": [
+    "market-sentiment",
+    "position-sizing",
+    "risk-management",
+    "pre-trade-analysis",
+    "claude",
+    "cursor",
+    "mcp"
+  ],
+  "mcpServers": {
+    "beforethechart-ai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ltorrey/beforethechart-mcp@1.1.0"
+      ],
+      "env": {
+        "GUMROAD_LICENSE_KEY": "${GUMROAD_LICENSE_KEY}",
+        "MARKETAUX_API_TOKEN": "${MARKETAUX_API_TOKEN}"
+      }
+    }
+  }
+}
