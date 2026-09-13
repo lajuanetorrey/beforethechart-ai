@@ -3,6 +3,7 @@
   "maintainers": ["lajuanetorrey"],
   "name": "beforethechart-ai",
   "display_name": "BeforeTheChart AI",
+  "icon": "https://raw.githubusercontent.com/lajuanetorrey/beforethechart-ai/main/beforethechart-avatar.png",
   "description": "Licensed local MCP decision-support software for Claude Desktop and Cursor, combining on-demand Marketaux news sentiment with deterministic risk-based position sizing. No trade execution or return promises.",
   "version": "1.1.0",
   "repository": "https://github.com/lajuanetorrey/beforethechart-ai",
